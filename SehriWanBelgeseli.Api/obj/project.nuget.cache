@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ajg+kadgx3CChYtQJjVMFWGUVi4Rl5kR7Seib6XJOWaLpmveYwP9yIRkIPUVU6FidZJNedRmyfuQaFJajWpS2g==",
+  "dgSpecHash": "mWKFAlBK3dVxwr20oumAtDY8DYLy3hVkgfA1xmSZgIjvxJvSBqetxTHJWt+1uh8btETXXR66+sADkpTATrhESg==",
   "success": true,
   "projectFilePath": "C:\\Tfs\\DEV\\SehriWanBelgeseli\\SehriWanBelgeseli.Api\\SehriWanBelgeseli.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MEHMTEKE\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -66,7 +67,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\MEHMTEKE\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
