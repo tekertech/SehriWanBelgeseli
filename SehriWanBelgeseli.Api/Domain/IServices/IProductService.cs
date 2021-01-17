@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace SehriWanBelgeseli.Api.Domain.IServices
 {
-    interface IProductService
+    public interface IProductService
     {
         Task<ProductListResponse> ListAsync();
         Task<ProductResponse> AddProductAsync(Product product);
