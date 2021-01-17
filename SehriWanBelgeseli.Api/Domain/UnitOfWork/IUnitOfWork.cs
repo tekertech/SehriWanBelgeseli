@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SehriWanBelgeseli.Api.Domain.UnitOfWork
 {
-    interface IUnitOfWork {
+    public interface IUnitOfWork {
         Task CompleteAsync();
     }
 }

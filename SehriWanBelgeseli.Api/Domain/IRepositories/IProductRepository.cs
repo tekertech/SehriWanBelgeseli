@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SehriWanBelgeseli.Api.Domain.IRepositories
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         Task<IEnumerable<Product>> ListAsync();
         Task AddProductAsync(Product product);

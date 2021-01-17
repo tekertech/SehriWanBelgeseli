@@ -3,7 +3,7 @@
     public class ProductResponse:BaseResponse
     {
         public Product Product { get; set; }
-        public ProductResponse(string message, bool isSuccess, Product product):base(message,isSuccess) {
+        private ProductResponse(string message, bool isSuccess, Product product):base(message,isSuccess) {
             this.Product = product;
         }
 
