@@ -9,4 +9,8 @@ To Use Entity Framework Database First Model:
  Scaffold-DbContext "Data Source=?;Initial Catalog=SehriWanBelgeselDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" 
                     Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domain
  
- 
+2-) How to using AutoMapper on ASP.NET Core 3.0 via Dependency Injection
+
+Kaynak : https://www.codementor.io/@zedotech/how-to-using-automapper-on-asp-net-core-3-0-via-dependencyinjection-zq497lzsq
+
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection -Version 7.0.0

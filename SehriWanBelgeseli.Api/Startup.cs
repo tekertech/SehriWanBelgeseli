@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +14,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SehriWanBelgeseli.Api.Domain;
+using SehriWanBelgeseli.Api.Domain.IRepositories;
+using SehriWanBelgeseli.Api.Domain.IServices;
+using SehriWanBelgeseli.Api.Domain.Repositories;
+using SehriWanBelgeseli.Api.Domain.UnitOfWork;
 using SehriWanBelgeseli.Api.Security;
+using SehriWanBelgeseli.Api.Services;
 
 namespace SehriWanBelgeseli.Api
 {
@@ -29,6 +35,11 @@ namespace SehriWanBelgeseli.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddAutoMapper();
+
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
             services.AddDbContext<SehriWanBelgeselDBContext>(options => {
                 options.UseSqlServer(Configuration["ConnectionStrings:MyContext"]);
