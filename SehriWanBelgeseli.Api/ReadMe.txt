@@ -11,6 +11,10 @@ To Use Entity Framework Database First Model:
  
 2-) How to using AutoMapper on ASP.NET Core 3.0 via Dependency Injection
 
-Kaynak : https://www.codementor.io/@zedotech/how-to-using-automapper-on-asp-net-core-3-0-via-dependencyinjection-zq497lzsq
+Source : https://www.codementor.io/@zedotech/how-to-using-automapper-on-asp-net-core-3-0-via-dependencyinjection-zq497lzsq
 
 Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection -Version 7.0.0
+
+3-) Addition of CORS (Cross-Origin Resource Sharing) middleware and service. SOP (Same Origin Policy) demolition
+
+Source : https://medium.com/@gokhansengun/cors-nedir-ve-ne-i%C5%9Fe-yarar-27006d85bf54

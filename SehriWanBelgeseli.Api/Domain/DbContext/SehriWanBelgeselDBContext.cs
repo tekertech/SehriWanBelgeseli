@@ -16,9 +16,9 @@ namespace SehriWanBelgeseli.Api.Domain
             : base(options)
         {
         }
-        public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Category> Category { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
+        public virtual DbSet<User> User { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder) {

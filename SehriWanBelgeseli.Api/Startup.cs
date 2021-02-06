@@ -38,7 +38,14 @@ namespace SehriWanBelgeseli.Api
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddAutoMapper();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddCors(corsOpts => {
+                corsOpts.AddDefaultPolicy(builder =>
+               {
+                   builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+               });
+            });
 
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
             services.AddDbContext<SehriWanBelgeselDBContext>(options => {

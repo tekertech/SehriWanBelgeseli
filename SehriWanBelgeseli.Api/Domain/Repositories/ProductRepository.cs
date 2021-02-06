@@ -10,20 +10,20 @@ namespace SehriWanBelgeseli.Api.Domain.Repositories
         public ProductRepository(SehriWanBelgeselDBContext dbContext):base(dbContext) {}
 
         public async Task AddProductAsync(Product product) {
-           await  dbContext.Products.AddAsync(product);
+           await  dbContext.Product.AddAsync(product);
         }
         public async Task<Product> FindByIdAsync(int productId) {
-            return await dbContext.Products.FindAsync(productId);
+            return await dbContext.Product.FindAsync(productId);
         }
         public async Task<IEnumerable<Product>> ListAsync() {
-            return await dbContext.Products.ToListAsync();
+            return await dbContext.Product.ToListAsync();
         }
         public async Task RemoveProductAsync(int productId) {
             Product product = await FindByIdAsync(productId);
-            dbContext.Products.Remove(product);
+            dbContext.Product.Remove(product);
         }
         public void UpdateProduct(Product product) {
-            dbContext.Products.Update(product);
+            dbContext.Product.Update(product);
         }
     }
 }
