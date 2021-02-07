@@ -63,4 +63,3 @@ C:\Tfs\DEV\SehriWanBelgeseli\SehriWanBelgeseli.Api\bin\Debug\netcoreapp3.1\Micro
 C:\Tfs\DEV\SehriWanBelgeseli\SehriWanBelgeseli.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Tfs\DEV\SehriWanBelgeseli\SehriWanBelgeseli.Api\obj\Debug\netcoreapp3.1\SehriWanBelgeseli.Api.csproj.CoreCompileInputs.cache
 C:\Tfs\DEV\SehriWanBelgeseli\SehriWanBelgeseli.Api\obj\Debug\netcoreapp3.1\SehriWanBelgeseli.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Tfs\DEV\SehriWanBelgeseli\SehriWanBelgeseli.Api\obj\Debug\netcoreapp3.1\SehriWanBelgeseli.Api.csprojAssemblyReference.cache
