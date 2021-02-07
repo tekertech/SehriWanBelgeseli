@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### VS Code plugins
+Auto Rename Tag
+Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+Debugger for Chrome Vscode
+ES7 React/Redux/GraphQL/React-Native snippets
+VS Code ESLint extension
+Bracket Pair Colorizer 2
+VS Code JavaScript (ES6) snippets
+Live Server
+Prettier Formatter for Visual Studio Code
+Reactjs code snippets
