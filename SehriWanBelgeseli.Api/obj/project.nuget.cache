@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mWKFAlBK3dVxwr20oumAtDY8DYLy3hVkgfA1xmSZgIjvxJvSBqetxTHJWt+1uh8btETXXR66+sADkpTATrhESg==",
+  "dgSpecHash": "36AI9EKhmtOi0bOrCxKmGsO4ubpm9o+347e/wt4PI30ENlJJF8ulWMILSYOtEcqYGaAtYa7lRQ/DNtIXm4Z8aA==",
   "success": true,
   "projectFilePath": "C:\\Tfs\\DEV\\SehriWanBelgeseli\\SehriWanBelgeseli.Api\\SehriWanBelgeseli.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\MEHMTEKE\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\MEHMTEKE\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
